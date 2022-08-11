@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: dimgray;
+}
+
+body,
+input,
+textarea,
+button,
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: dimgray;
+}
+
+.container-p{
+    max-width: 81.25rem;
+    margin: 0 auto;
+}
+
+/* Inicio mais vendidos */
+
+.best-sellers{
+    margin-top: 2rem;
+}
+
+.card {
+    width: 11rem;
+    padding: 0.625rem 0.625rem 0;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.47); 
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.47);
+}
+
+.item-product img {
+    width: 100%;
+}
+
+.text-item-product {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.title-item {
+    display: block;
+    height: 5rem;
+}
+
+.info-preco {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.preco {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.price {
+    font-size: 1.4rem;
+}
+
+/* Fim mais vendidos */
+
+/* Inicio marcas em estoque */
+
+.brands{
+    margin-top: 2rem;
+}
+
+.marcas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+
+.marcas-estoque{
+    width: 13.5rem;
+    max-height: 9rem;
+    padding: 1rem 0;
+    /* border-left: 1px solid #ccc; */
+}
+
+.marcas-estoque:nth-child(n+2):nth-child(-n+6), .marcas-estoque:nth-child(n+8):nth-child(-n+12){
+    border-left: 1px solid #ccc;
+}
+
+.marcas-estoque:nth-child(-n+6){
+    border-bottom: 1px solid #ccc;
+}
+
+.marcas-estoque img{
+    height: 100%;
+}
+/* Fim marcas em estoque */
+
+/* Inicio footer */
+
+.footerMenu{
+
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Fim footer */

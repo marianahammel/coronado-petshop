@@ -1,104 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coronado</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <!-- HEADER INICIO -->
     <header>
-    <!-- PRIMEIRA PARTE DO HEADER -->
+        <!-- PRIMEIRA PARTE DO HEADER -->
         <div class="header-1">
             <div class="px-3 py-2 text-white" style="background-color: orange; ">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <nav class="navbar bg-light">
-                    <div >
-                      <a href="#">
-                        <img src="./images/logo-coronado.jpg" alt="" width="100" height="auto">
-                      </a>
-                    </div>
-                </nav>
-                <div class="container d-flex flex-wrap justify-content-center">
-                    <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-                        <input type="search" class="form-control" placeholder="Pesquisar.." aria-label="Search">
-                    </form>
-                    <div class="text-end">
-                        <button type="button" class="btn btn-light">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"></path>
-                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"></path>
-                            </svg>
-                            Entre ou Cadastre-se
-                        </button>
-                        <button type="button" class="btn btn-light">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"></path>
-                            </svg>
-                        </button> 
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <nav class="navbar bg-light">
+                        <div>
+                            <a href="#">
+                                <img src="./images/logo-coronado.jpg" alt="" width="100" height="auto">
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="container d-flex flex-wrap justify-content-center">
+                        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+                            <input type="search" class="form-control" placeholder="Pesquisar.." aria-label="Search">
+                        </form>
+                        <div class="text-end">
+                            <a href="/Login/" class="btn btn-light">
+                                <img src="/images/enter.svg" alt="">
+                                Entre ou Cadastre-se
+                            </a>
+                            <button type="button" class="btn btn-light" title="bag">
+                                <img src="/images/bag.svg" alt="">
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
         <!-- SEGUNDA PARTE DO HEADER -->
         <div class="header-2">
             <div style="background-color: green;">
-            <div class="container">
-                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                    <li>
-                        <a href="#" class="nav-link text-white font-header2">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
-                        Cachorro
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white font-header2">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
-                        Gato
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white font-header2">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
-                        Pássaros
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white font-header2">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
-                        Casa e Jardim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link text-white font-header2">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
-                        Serviços Veterinários
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                <div class="container">
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                        <li>
+                            <a href="#" class="nav-link text-white font-header2">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                                Cachorro
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white font-header2">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#speedometer2"></use>
+                                </svg>
+                                Gato
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white font-header2">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#table"></use>
+                                </svg>
+                                Pássaros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white font-header2">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#grid"></use>
+                                </svg>
+                                Casa e Jardim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-white font-header2">
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                                    <use xlink:href="#people-circle"></use>
+                                </svg>
+                                Serviços Veterinários
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
     <!-- HEADER FINAL-->
 
     <!-- PROPAGANDA PARA SEPARAR HEADER DO MAIN -->
-    <div class="mini-banner-frete-gtatis grid-center" style="margin:0 auto; height:24px"><a href="https://www.cobasi.com.br/modalidade-de-entrega/cobasi-ja">
-        <img src="/arquivos/faixa_desk_fev.png?v=637794962173100000" alt="" class="img-fluid"></a>
+    <div class="mini-banner-frete-gtatis grid-center" style="margin:0 auto; height:24px"><a
+            href="https://www.cobasi.com.br/modalidade-de-entrega/cobasi-ja">
+            <img src="/arquivos/faixa_desk_fev.png?v=637794962173100000" alt="" class="img-fluid"></a>
     </div>
 
     <!--CARROSSEL-->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -109,201 +122,318 @@
             </div>
             <div class="carousel-item">
                 <img src="./images/carrossel-3.png" class="d-block w-100" alt="...">
-             </div>
+            </div>
             <div class="carousel-item active">
                 <img src="./images/carrossel-4.png" class="d-block w-100" alt="...">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    
+
     <!--colocar algumas informacoes / retirar na loja / parcelamento e etc-->
     <!--código-->
 
     <!--ITENS MAIS VENDIDOS-->
-    <h2 class="card_produtos">Produtos mais vendidos</h2>
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <div class="card" style="width: 18rem;">
-            <img src="./images/cart-1-golden.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ração</h5>
-                <p class="card-text">Ração Golden Special Sabor Frango e Carne para Cães Adultos - 15kg</p>
-                <a href="#" class="btn btn-light">Comprar</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./images/cart-2-premier.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ração</h5>
-                <p class="card-text">Ração Premier Fórmula para Cães Filhotes de Raças Grandes Sabor Frango - 15kg</p>
-                <a href="#" class="btn btn-light">Comprar</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./images/cart-3-royal.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ração</h5>
-                <p class="card-text">Ração Royal Canin 15kg Maxi Junior Cães Filhotes de Raças Grandes</p>
-                <a href="#" class="btn btn-light">Comprar</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./images/cart-3-royal.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Ração</h5>
-                <p class="card-text">Ração Royal Canin 15kg Maxi Junior Cães Filhotes de Raças Grandes</p>
-                <a href="#" class="btn btn-light">Comprar</a>
-            </div>
-        </div>
-    </div>
+    <main class="container-p">
+        <section class="best-sellers">
+            <h2 class="card_produtos">Produtos mais vendidos</h2>
+            <div class="d-flex flex-wrap align-items-center justify-content-between mt-3">
+                <article class="item-product card">
+                    <a href="/Produtos/Produto/">
+                        <div class="">
+                            <img src="./images/1656093596794_mini.webp" alt="">
+                        </div>
+                        <div class="text-item-product">
+                            <span class="title-item">
+                                Ração Premier Raças Específicas ShihTzu para Cães Filhotes
+                            </span>
 
-    <!--MARCAS EM ESTOQUE-->
-    <h2>Marcas em estoque</h2>
-    <div class="marcas nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-        
-        <div class="marcas-estoque text-center">
-            <a href="/bayerpet">
-                <img alt="Logo Bayer" title="Logo Bayer" data-src="https://static.petz.com.br/fotos/imagem-marca-bayer-pet-bayer.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-bayer-pet-bayer.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/zee-dog">
-                <img width="122" height="122" alt="Logo Zee.Dog" title="Logo Zee.Dog" data-src="https://static.petz.com.br/novaLoja/images/brands/zeedog.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/novaLoja/images/brands/zeedog.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/supersecao">
-                <img width="122" height="122" alt="Logo Super Secão" title="Logo Super Secão" data-src="https://static.petz.com.br/fotos/imagem-marca-supersecao-super_secao.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-supersecao-super_secao.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/royal-canin">
-                <img width="122" height="122" alt="Logo Royal Canin" title="Logo Royal Canin" data-src="https://static.petz.com.br/fotos/imagem-marca-royal-canin-royal_canin.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-royal-canin-royal_canin.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/purina">
-                <img width="122" height="122" alt="Logo Purina" title="Logo Purina" data-src="https://static.petz.com.br/fotos/imagem-marca-purina-purina.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-purina-purina.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/pet-society">
-                <img width="122" height="122" alt="Logo Pet Society" title="Logo Pet Society" data-src="https://static.petz.com.br/fotos/imagem-marca-pet-society-pet_society.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-pet-society-pet_society.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/pedigree">
-                <img width="122" height="122" alt="Logo Pedigree" title="Logo Pedigree" data-src="https://static.petz.com.br/fotos/imagem-marca-pedigree-pedigree.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-pedigree-pedigree.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/whiskas">
-                <img width="122" height="122" alt="Logo Whiskas" title="Logo Whiskas" data-src="https://static.petz.com.br/fotos/imagem-marca-whiskas-whiskas.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-whiskas-whiskas.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/frontline">
-                <img width="122" height="122" alt="Logo Frontiline Plus" title="Logo Frontiline Plus" data-src="https://static.petz.com.br/fotos/imagem-marca-frontline-frontiline_plus.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-frontline-frontiline_plus.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/ferplast">
-                <img width="122" height="122" alt="Logo Ferplast" title="Logo Ferplast" data-src="https://static.petz.com.br/fotos/imagem-marca-ferplast-ferplast.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/fotos/imagem-marca-ferplast-ferplast.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/premierpet">
-                <img width="122" height="122" alt="Logo Premier Pet" title="Logo Premier Pet" data-src="https://www.petz.com.br/novaLoja/images/brands/premierpet.jpg" class="img-responsive lazyloaded" src="https://www.petz.com.br/novaLoja/images/brands/premierpet.jpg">
-            </a>
-        </div>
-        <div class="marcas-estoque text-center">
-            <a href="/nd">
-                <img width="122" height="122" alt="Logo ND" title="Logo ND" data-src="https://static.petz.com.br/novaLoja/images/brands/nd.jpg" class="img-responsive lazyloaded" src="https://static.petz.com.br/novaLoja/images/brands/nd.jpg">
-            </a>
-        </div>
-    </div>
+                            <div class="info-preco">
+                                <span class="preco">R$&nbsp;95,90</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="item-product card">
+                    <a href="/Produtos/Produto/">
+                        <div class="">
+                            <img src="./images/1656093596794_mini.webp" alt="">
+                        </div>
+                        <div class="text-item-product">
+                            <span class="title-item">
+                                Ração Premier Raças Específicas ShihTzu para Cães Filhotes
+                            </span>
 
-    <!--ACESSO AO BLOG-->
-    <div class="blog-holder">
-        <img class="lazyloaded" data-src="#" alt="Blog Coronado" src="./images/logo-coronado.jpg" width="100px">
-        <h3 id="linkBlog">
-            <a href="#">
-                Acesse nosso Blog
-            </a>
-        </h3>
-    </div>
+                            <div class="info-preco">
+                                <span class="preco">R$&nbsp;95,90</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="item-product card">
+                    <a href="/Produtos/Produto/">
+                        <div class="">
+                            <img src="./images/1656093596794_mini.webp" alt="">
+                        </div>
+                        <div class="text-item-product">
+                            <span class="title-item">
+                                Ração Premier Raças Específicas ShihTzu para Cães Filhotes
+                            </span>
 
-    <!--FOOTER-->
-    <div class="container">
-        <footer class="py-5">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
+                            <div class="info-preco">
+                                <span class="preco">R$&nbsp;95,90</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="item-product card">
+                    <a href="/Produtos/Produto/">
+                        <div class="">
+                            <img src="./images/1656093596794_mini.webp" alt="">
+                        </div>
+                        <div class="text-item-product">
+                            <span class="title-item">
+                                Ração Premier Raças Específicas ShihTzu para Cães Filhotes
+                            </span>
+
+                            <div class="info-preco">
+                                <span class="preco">R$&nbsp;95,90</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="item-product card">
+                    <a href="/Produtos/Produto/">
+                        <div class="">
+                            <img src="./images/1656093596794_mini.webp" alt="">
+                        </div>
+                        <div class="text-item-product">
+                            <span class="title-item">
+                                Ração Premier Raças Específicas ShihTzu para Cães Filhotes
+                            </span>
+
+                            <div class="info-preco">
+                                <span class="preco">R$&nbsp;95,90</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="item-product card">
+                    <a href="/Produtos/Produto/">
+                        <div class="">
+                            <img src="./images/1656093596794_mini.webp" alt="">
+                        </div>
+                        <div class="text-item-product">
+                            <span class="title-item">
+                                Ração Premier Raças Específicas ShihTzu para Cães Filhotes
+                            </span>
+
+                            <div class="info-preco">
+                                <span class="preco">R$&nbsp;95,90</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
             </div>
-      
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Section</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly digest of what's new and exciting from us.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                  <button class="btn btn-primary" type="button">Subscribe</button>
+        </section>
+
+        <!--MARCAS EM ESTOQUE-->
+        <section class="brands">
+            <h2>Marcas em estoque</h2>
+            <div class="marcas">
+
+                <div class="marcas-estoque text-center">
+                    <a href="/bayerpet">
+                        <img alt="Logo Bayer" title="Logo Bayer"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-bayer-pet-bayer.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-bayer-pet-bayer.jpg">
+                    </a>
                 </div>
-              </form>
+                <div class="marcas-estoque text-center">
+                    <a href="/zee-dog">
+                        <img width="122" height="122" alt="Logo Zee.Dog" title="Logo Zee.Dog"
+                            data-src="https://static.petz.com.br/novaLoja/images/brands/zeedog.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/novaLoja/images/brands/zeedog.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/supersecao">
+                        <img width="122" height="122" alt="Logo Super Secão" title="Logo Super Secão"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-supersecao-super_secao.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-supersecao-super_secao.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/royal-canin">
+                        <img width="122" height="122" alt="Logo Royal Canin" title="Logo Royal Canin"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-royal-canin-royal_canin.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-royal-canin-royal_canin.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/purina">
+                        <img width="122" height="122" alt="Logo Purina" title="Logo Purina"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-purina-purina.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-purina-purina.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/pet-society">
+                        <img width="122" height="122" alt="Logo Pet Society" title="Logo Pet Society"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-pet-society-pet_society.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-pet-society-pet_society.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/pedigree">
+                        <img width="122" height="122" alt="Logo Pedigree" title="Logo Pedigree"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-pedigree-pedigree.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-pedigree-pedigree.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/whiskas">
+                        <img width="122" height="122" alt="Logo Whiskas" title="Logo Whiskas"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-whiskas-whiskas.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-whiskas-whiskas.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/frontline">
+                        <img width="122" height="122" alt="Logo Frontiline Plus" title="Logo Frontiline Plus"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-frontline-frontiline_plus.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-frontline-frontiline_plus.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/ferplast">
+                        <img width="122" height="122" alt="Logo Ferplast" title="Logo Ferplast"
+                            data-src="https://static.petz.com.br/fotos/imagem-marca-ferplast-ferplast.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/fotos/imagem-marca-ferplast-ferplast.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/premierpet">
+                        <img width="122" height="122" alt="Logo Premier Pet" title="Logo Premier Pet"
+                            data-src="https://www.petz.com.br/novaLoja/images/brands/premierpet.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://www.petz.com.br/novaLoja/images/brands/premierpet.jpg">
+                    </a>
+                </div>
+                <div class="marcas-estoque text-center">
+                    <a href="/nd">
+                        <img width="122" height="122" alt="Logo ND" title="Logo ND"
+                            data-src="https://static.petz.com.br/novaLoja/images/brands/nd.jpg"
+                            class="img-responsive lazyloaded"
+                            src="https://static.petz.com.br/novaLoja/images/brands/nd.jpg">
+                    </a>
+                </div>
             </div>
-          </div>
-      
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>© 2022 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-            </ul>
-          </div>
+        </section>
+
+        <!--ACESSO AO BLOG-->
+        <div class="blog-holder mt-4 mb-4">
+            <img class="lazyloaded" data-src="#" alt="Blog Coronado" src="./images/logo-coronado.jpg" width="100px">
+            <h3 id="linkBlog">
+                <a href="#">
+                    Acesse nosso Blog
+                </a>
+            </h3>
+        </div>
+
+        <!--FOOTER-->
+
+
+        <footer>
+            <section class="footerMenu">
+                <div class="footer-container flex space-between">
+                    <div class="nav-footer flex space-between wrap grow">
+                        <ul>
+                            <li><span class="black-friday-a">Institucional</span></li>
+                            <li><a href="/institucional/sobre-a-petz">Sobre a Petz</a></li>
+                            <li><a href="https://petz.jobconvo.com" target="_blank">Trabalhe Conosco</a></li>
+                            <li><a href="https://canalconfidencial.com.br/petz/#home" target="_blank">Canal de Denúncias</a></li>
+                            <li><a href="https://ri.petz.com.br/" target="_blank">Relações com Investidores</a></li>
+                            <li><a href="https://hcm19.sapsf.com/sf/jam?bplte_company=petcenterc#/login" target="_blank" rel="nofollow">Portal Petz</a></li>
+                            <li><a href="/institucional/expansao">Expansão</a></li>
+                        </ul>
+                        <ul>
+                            <li><span class="black-friday-a">Aqui Você Encontra</span></li>
+                            <li><a href="/institucional/clube-de-assinatura">Assinatura Petz</a></li>
+                            <li>
+                                <a onclick="callAlert(document.getElementById('banner-pickupstore').value, document.getElementById('banner-pickupstore-titulo').value, 'Entendi', null, null, false, null, null, null, 'novoPopup correct-title', null, null)">
+                                    Retire na Loja
+                                </a>
+                            </li>
+                            <li><a href="/institucional/pesquise-la-compre-aqui">Pesquise Lá, Compre Aqui</a></li>
+                            <li><a href="/institucional/nossos-diferenciais">Nossos Diferenciais</a></li>
+                            <li><a href="/institucional/vale-a-pena-ser-fiel">Vale a Pena Ser Fiel</a></li>
+                            <li><a href="/institucional/como-comprar">Como Comprar</a></li>
+                            <li><a href="/petcommerce">Petcommerce</a></li>
+                        </ul>
+                        <ul>
+                            <li><span class="black-friday-a">Nossas Políticas</span></li>
+                            <li><a href="/institucional/politicafretegratis">Entrega e Frete</a></li>
+                            <li><a href="/institucional/pagamentos-e-reembolsos">Pagamentos e Reembolso</a></li>
+                            <li><a href="/institucional/trocas-e-devolucoes">Trocas e Devolução</a></li>
+                            <li><a href="/promocoes">Campanhas e Promoções</a></li>
+                            <li><a href="/institucional/politica-de-privacidade">Política de Privacidade</a></li>
+                        </ul>
+                        <ul>
+                            <li><span class="black-friday-a">Atendimento Alô Petz</span></li>
+                            <li><a href="/meus-pedidos">Meus Pedidos</a></li>
+                            <li><a href="/meu-cadastro">Meu Cadastro</a></li>
+                            <li><a href="/minhas-assinaturas">Minhas Assinaturas</a></li>
+                            <li><a href="/atendimento-inteligente">Fale Conosco</a></li>
+                            <li><a onclick="jQuery('#popupOuvidoria').modal('show');" data-toggle="modal">Ouvidoria</a></li>
+                        </ul>
+                        <div id="footerApps">
+                            <span>Baixe o Nosso App</span>
+                            <div id="appsImages" class="flex space-between">
+                                <div id="qrCodeApp"><img src="/images/exp-facelift/qr-code-app.svg" alt="Qr Code App"></div>
+                                <div id="appsStore" class="flex column">
+                                    <a href="" class="store apple" target="_blank" rel="noreferrer noopener">
+                                        <img src="/images/exp-facelift/app-store.svg" alt="Disponível na App Store">
+                                        <span class="visuallyhidden">Disponível na App Store</span>
+                                    </a>
+                                    <a href="" class="store play" target="_blank" rel="noreferrer noopener">
+                                        <img src="/images/exp-facelift/google-play.svg" alt="Disponível no Google Play">
+                                        <span class="visuallyhidden">Disponível no Google Play</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </footer>
-      </div>
+    </main>
 
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-<script src="./app/app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./app/app.js"></script>
 </body>
+
 </html>
